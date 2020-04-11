@@ -1,0 +1,51 @@
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+
+.header_swiper {
+
+
+	height: calc(100vh - 235px);
+	.swiper-button-next,.swiper-button-prev {
+
+		&:after{
+			content:unset;
+		}
+
+		img {
+			height: 20px;
+			object-fit: contain;
+		}
+	}
+
+	.swiper-button-next {
+	
+	   left: 45px;
+	  top: unset;
+	   bottom: 10px;
+	}
+
+	.swiper-button-prev {
+	    left: 0px;
+    top: unset;
+    bottom: 10px;
+	}
+}  
+
+.swipper_carousel_arroow_fluid {
+	background-color: #fff;
+    width: 79px;
+    height: 60px;
+    position: absolute;
+    bottom: -6px;
+    z-index: 10;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+

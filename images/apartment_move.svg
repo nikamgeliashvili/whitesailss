@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <g id="Group_65" data-name="Group 65" transform="translate(-987 -672)">
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(987 672)" fill="rgba(255,255,255,0.73)" stroke="#1e1e1e" stroke-width="1">
+      <circle cx="26.5" cy="26.5" r="26.5" stroke="none"/>
+      <circle cx="26.5" cy="26.5" r="26" fill="none"/>
+    </g>
+    <path id="left-arrow_1_" data-name="left-arrow (1)" d="M4.974,34.446,0,39.417l4.973,4.971.586-.584L1.586,39.831h0l-.374-.414L1.586,39h0L5.56,35.028Z" transform="translate(993.191 659.363)" fill="#1e1e1e"/>
+    <path id="left-arrow_1_2" data-name="left-arrow (1)" d="M4.974,34.446,0,39.417l4.973,4.971.586-.584L1.586,39.831h0l-.374-.414L1.586,39h0L5.56,35.028Z" transform="translate(1033.751 738.197) rotate(180)" fill="#1e1e1e"/>
+    <path id="left-arrow_1_3" data-name="left-arrow (1)" d="M4.974,34.446,0,39.417l4.973,4.971.586-.584L1.586,39.831h0l-.374-.414L1.586,39h0L5.56,35.028Z" transform="translate(1052.888 678.5) rotate(90)" fill="#1e1e1e"/>
+    <path id="left-arrow_1_4" data-name="left-arrow (1)" d="M4.974,34.446,0,39.417l4.973,4.971.586-.584L1.586,39.831h0l-.374-.414L1.586,39h0L5.56,35.028Z" transform="translate(974.054 719.06) rotate(-90)" fill="#1e1e1e"/>
+  </g>
+</svg>

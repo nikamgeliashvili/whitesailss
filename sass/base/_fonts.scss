@@ -1,0 +1,123 @@
+
+$text-color:#2C3E50;
+$orange:#FFD393;
+
+
+@font-face {
+	font-family: 'Conv_Segoe UI';
+	src: url('../fonts/Segoe UI.eot');
+	src: local('☺'), url('../fonts/Segoe UI.woff') format('woff'), url('../fonts/Segoe UI.ttf') format('truetype'), url('../fonts/Segoe UI.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_bpg_algeti';
+	src: url('../fonts/bpg_algeti.eot');
+	src: local('☺'), url('../fonts/bpg_algeti.woff') format('woff'), url('../fonts/bpg_algeti.ttf') format('truetype'), url('../fonts/bpg_algeti.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif italic';
+    src: url('../fonts/NotoSerif-Italic.eot');
+    src: url('../fonts/NotoSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSerif-Italic.woff2') format('woff2'),
+        url('../fonts/NotoSerif-Italic.woff') format('woff'),
+        url('../fonts/NotoSerif-Italic.ttf') format('truetype'),
+        url('../fonts/NotoSerif-Italic.svg#NotoSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/NotoSerif.eot');
+    src: url('../fonts/NotoSerif.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSerif.woff2') format('woff2'),
+        url('../fonts/NotoSerif.woff') format('woff'),
+        url('../fonts/NotoSerif.ttf') format('truetype'),
+        url('../fonts/NotoSerif.svg#NotoSerif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$segoe: 'Conv_Segoe UI';
+$noto: 'Noto Serif italic';
+$notoregular: 'Noto Serif';
+$algeti: 'Conv_bpg_algeti';
+
+
+$en-title: $algeti;
+$ge-title: $algeti;
+$ru-title: $algeti;
+$en-text : $segoe;
+$ge-text : $segoe;
+$ru-text : $segoe;
+$en-noto : $noto;
+$ge-noto : $noto;
+$ru-noto : $noto;
+
+$en-notoregular : $notoregular;
+$ge-notoregular : $notoregular;
+$ru-notoregular : $notoregular;
+$default-title: $ge-title;
+$default-text: $ge-text;
+
+
+
+@mixin family($name) {
+	 @if($name == "notoregular"){
+        font-family: $default-title, sans-serif;
+
+        &:lang(en){
+            font-family: $en-notoregular, sans-serif;
+        }
+        &:lang(ka){
+            font-family: $ge-notoregular, sans-serif;
+        }
+        &:lang(ru){
+            font-family: $ge-notoregular, sans-serif;
+        }
+    }
+    @if($name == "noto"){
+        font-family: $default-title, sans-serif;
+
+        &:lang(en){
+            font-family: $en-noto, sans-serif;
+        }
+        &:lang(ka){
+            font-family: $ge-noto, sans-serif;
+        }
+        &:lang(ru){
+            font-family: $ge-noto, sans-serif;
+        }
+    }
+      @if($name == "algeti"){
+        font-family: $default-title, sans-serif;
+
+        &:lang(en){
+            font-family: $en-title, sans-serif;
+        }
+        &:lang(ka){
+            font-family: $ge-title, sans-serif;
+        }
+        &:lang(ru){
+            font-family: $ge-title, sans-serif;
+        }
+    }
+    @if($name == "segoe"){
+        font-family: $default-text, sans-serif;
+
+        &:lang(en){
+            font-family: $en-text, sans-serif;
+        }
+        &:lang(ka){
+            font-family: $ge-text, sans-serif;
+        }
+        &:lang(ru){
+            font-family: $ge-text, sans-serif;
+        }
+    }
+}

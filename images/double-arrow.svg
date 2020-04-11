@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="8.167" viewBox="0 0 14 8.167">
+  <g id="double-arrow" transform="translate(0 -106.667)">
+    <g id="Group_79" data-name="Group 79" transform="translate(0 107.783)">
+      <g id="Group_78" data-name="Group 78">
+        <path id="Path_12236" data-name="Path 12236" d="M5.943,159.766H1.767l.593-.257,1.116-1.214-.763-.855L0,160.4l2.707,2.962.769-.842-1.133-1.24-.57-.231H5.943Z" transform="translate(0 -157.44)" fill="#73cabe"/>
+      </g>
+    </g>
+    <g id="Group_81" data-name="Group 81" transform="translate(8.058 107.783)">
+      <g id="Group_80" data-name="Group 80">
+        <path id="Path_12237" data-name="Path 12237" d="M299.337,157.44l-.763.855,1.116,1.214.593.257h-4.175v1.285h4.169l-.57.231-1.133,1.24.769.842,2.707-2.962Z" transform="translate(-296.107 -157.44)" fill="#73cabe"/>
+      </g>
+    </g>
+    <g id="Group_83" data-name="Group 83" transform="translate(5.247 106.667)">
+      <g id="Group_82" data-name="Group 82" transform="translate(0 0)">
+        <rect id="Rectangle_62" data-name="Rectangle 62" width="1.174" height="8.167" fill="#73cabe"/>
+      </g>
+    </g>
+    <g id="Group_85" data-name="Group 85" transform="translate(7.579 106.667)">
+      <g id="Group_84" data-name="Group 84" transform="translate(0 0)">
+        <rect id="Rectangle_63" data-name="Rectangle 63" width="1.174" height="8.167" fill="#73cabe"/>
+      </g>
+    </g>
+  </g>
+</svg>
