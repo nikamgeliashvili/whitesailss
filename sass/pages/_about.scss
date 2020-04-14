@@ -1,6 +1,6 @@
 .about-container {
   background: white;
-  margin-top: 80px;
+  padding: 80px 0 100px;
 
   .title {
     @include family(noto);
@@ -99,16 +99,26 @@
     }
   }
 
+  .offer-section:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
   .offer-section {
     display: flex;
     width: 85%;
     margin: 50px auto;
+    padding-bottom: 50px;
 
     .offer-text {
-      padding: 0 20px;
+      padding: 60px 20px 20px 70px;
+      width: 80%;
+      background: #f4fafa;
 
       .offer-title {
-        margin: 50px 0 35px;
+        margin-bottom: 30px;
+        max-height: 80px;
+        overflow: hidden;
+        word-break: break-word;
 
         a {
           color: #2c3e50;
@@ -120,7 +130,27 @@
       p {
         color: #2c3e50;
         font-size: 18px;
+        height: 245px;
+        overflow: hidden;
+      }
+    }
+
+    .offer-img {
+      max-height: 450px;
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
       }
     }
   }
+}
+
+.about-container .offer-section:nth-child(even) .offer-text {
+  transform: translate(50px, 70px);
+}
+
+.about-container .offer-section:nth-child(odd) .offer-text {
+  transform: translate(-50px, 70px);
 }
