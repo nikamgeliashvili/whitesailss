@@ -1480,8 +1480,7 @@ body {
         cursor: pointer; }
         .contact-container .address-container .address-section .title-section .address-title {
           color: #2c3e50;
-          font-size: 30px;
-          text-transform: uppercase; }
+          font-size: 30px; }
         .contact-container .address-container .address-section .title-section:hover .down-arrow {
           width: 22px;
           height: 22px;
@@ -1578,5 +1577,22 @@ body {
       .contact-container .map-container .form-container form .main_link_box_fluid {
         float: right;
         margin-right: 20px; }
+
+.faq-container {
+  width: 90%; }
+  .faq-container .address-container {
+    margin: 0 auto; }
+    .faq-container .address-container .title {
+      text-align: center;
+      font-size: 60px;
+      padding: 30px 0 40px; }
+    .faq-container .address-container .address-title {
+      font-family: "Conv_bpg_algeti", sans-serif; }
+      .faq-container .address-container .address-title:lang(en) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .faq-container .address-container .address-title:lang(ka) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .faq-container .address-container .address-title:lang(ru) {
+        font-family: "Noto Serif italic", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
