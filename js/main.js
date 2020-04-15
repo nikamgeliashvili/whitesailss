@@ -1,3 +1,19 @@
+$(document).ready(function() {
+  $('.title-section').click(function() {
+    $(this)
+      .next('.address-box')
+      .slideToggle()
+  })
+})
+
+$(document).ready(function() {
+  $('.title-section').click(function() {
+    $(this)
+      .find($('.down-arrow'))
+      .toggleClass('rotate')
+  })
+})
+
 const app = (() => {
   let body
   let menu
@@ -104,4 +120,4 @@ $(document).ready(function() {
   })
 })
 
-//one-page-slider
+//contact page

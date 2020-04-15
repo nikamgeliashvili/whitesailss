@@ -904,7 +904,8 @@ body {
   width: 80%;
   margin: 80px auto;
   background: white;
-  color: #1e1e1e; }
+  color: #1e1e1e;
+  padding: 15px; }
   .news-container .title {
     font-family: "Conv_bpg_algeti", sans-serif;
     font-size: 80px;
@@ -920,7 +921,7 @@ body {
       font-family: "Noto Serif italic", sans-serif; }
   .news-container .news-section {
     display: flex;
-    padding: 35px 30px;
+    padding: 30px;
     border: 1px solid #d4eceb;
     background: #fdfdfd;
     margin: 12px; }
@@ -945,7 +946,9 @@ body {
           width: 30px; }
       .news-container .news-section .news-info p {
         padding-top: 20px;
-        padding-bottom: 30px; }
+        padding-bottom: 30px;
+        max-height: 90px;
+        overflow: hidden; }
   .news-container .news-grid .col-lg-4 {
     padding-right: 8px !important;
     padding-left: 8px !important; }
@@ -1029,9 +1032,34 @@ body {
   .news-page-container .news-text .news-gallery {
     margin: 15px 0 20px; }
     .news-page-container .news-text .news-gallery img {
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
   .news-page-container .news-navigation {
-    display: flex; }
+    display: flex;
+    margin-top: 50px; }
+    .news-page-container .news-navigation .news-nav-right {
+      text-align: right;
+      width: 50%; }
+      .news-page-container .news-navigation .news-nav-right .main_link_box_fluid {
+        margin-right: 8px; }
+    .news-page-container .news-navigation .news-nav-left {
+      width: 50%; }
+      .news-page-container .news-navigation .news-nav-left .main_link_box_fluid {
+        margin-left: 8px; }
+        .news-page-container .news-navigation .news-nav-left .main_link_box_fluid:hover .main_btn_arrow {
+          left: -11%; }
+      .news-page-container .news-navigation .news-nav-left .main_btn {
+        padding: 7px 18px 7px 35px; }
+      .news-page-container .news-navigation .news-nav-left .main_btn_arrow {
+        position: absolute;
+        top: 34%;
+        left: -9%;
+        z-index: 4;
+        transition: all 0.3s;
+        cursor: pointer;
+        transform: rotate(180deg); }
+        .news-page-container .news-navigation .news-nav-left .main_btn_arrow:hover {
+          left: -11%; }
 
 .main_btn {
   color: #1e1e1e;
@@ -1421,5 +1449,134 @@ body {
             transform: translate(-50%, -50%);
             content: '';
             z-index: 1; }
+
+.contact-container {
+  width: 80%;
+  margin: 80px auto;
+  color: #2c3e50;
+  padding: 15px;
+  display: flex; }
+  .contact-container .title {
+    font-family: "Conv_bpg_algeti", sans-serif;
+    font-size: 80px;
+    color: #2c3e50;
+    text-transform: capitalize;
+    padding-bottom: 50px; }
+    .contact-container .title:lang(en) {
+      font-family: "Noto Serif italic", sans-serif; }
+    .contact-container .title:lang(ka) {
+      font-family: "Noto Serif italic", sans-serif; }
+    .contact-container .title:lang(ru) {
+      font-family: "Noto Serif italic", sans-serif; }
+  .contact-container .address-container {
+    width: 70%; }
+    .contact-container .address-container .address-section {
+      border-bottom: 1px solid #f2f2f2; }
+      .contact-container .address-container .address-section .title-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0;
+        cursor: pointer; }
+        .contact-container .address-container .address-section .title-section .address-title {
+          color: #2c3e50;
+          font-size: 30px;
+          text-transform: uppercase; }
+        .contact-container .address-container .address-section .title-section:hover .down-arrow {
+          width: 22px;
+          height: 22px;
+          background: #2c3e50;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative; }
+          .contact-container .address-container .address-section .title-section:hover .down-arrow .rotate {
+            transform: rotate(180deg); }
+          .contact-container .address-container .address-section .title-section:hover .down-arrow:before {
+            position: absolute;
+            top: -4px;
+            left: -4px;
+            border: 1px solid #2c3e50;
+            content: '';
+            z-index: 10;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%; }
+          .contact-container .address-container .address-section .title-section:hover .down-arrow svg #left-arrow_1_ {
+            fill: white; }
+        .contact-container .address-container .address-section .title-section .rotate {
+          transform: rotate(180deg); }
+        .contact-container .address-container .address-section .title-section .down-arrow {
+          width: 22px;
+          height: 22px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          transition: 0.3s; }
+          .contact-container .address-container .address-section .title-section .down-arrow svg {
+            width: 11px;
+            height: 11px; }
+      .contact-container .address-container .address-section .address-box {
+        display: none; }
+        .contact-container .address-container .address-section .address-box .address-info {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 15px;
+          text-transform: capitalize;
+          font-size: 16px;
+          color: #1e1e1e; }
+          .contact-container .address-container .address-section .address-box .address-info a {
+            color: #1e1e1e; }
+  .contact-container .map-container {
+    width: 100%;
+    padding-left: 35px; }
+    .contact-container .map-container .form-container {
+      width: 80%;
+      margin: 30px auto; }
+      .contact-container .map-container .form-container .form-title h3 {
+        color: #2c3e50;
+        font-size: 30px;
+        text-transform: capitalize;
+        padding: 20px 0;
+        font-family: "Conv_bpg_algeti", sans-serif; }
+        .contact-container .map-container .form-container .form-title h3:lang(en) {
+          font-family: "Noto Serif italic", sans-serif; }
+        .contact-container .map-container .form-container .form-title h3:lang(ka) {
+          font-family: "Noto Serif italic", sans-serif; }
+        .contact-container .map-container .form-container .form-title h3:lang(ru) {
+          font-family: "Noto Serif italic", sans-serif; }
+      .contact-container .map-container .form-container form .def-input,
+      .contact-container .map-container .form-container form textarea {
+        width: 100%;
+        border-bottom: 1px solid #5e5e5e;
+        padding: 10px;
+        margin: 20px 0; }
+        .contact-container .map-container .form-container form .def-input input,
+        .contact-container .map-container .form-container form textarea input {
+          color: #5e5e5e; }
+          .contact-container .map-container .form-container form .def-input input::placeholder,
+          .contact-container .map-container .form-container form textarea input::placeholder {
+            color: #5e5e5e;
+            text-transform: capitalize; }
+          .contact-container .map-container .form-container form .def-input input::-webkit-inner-spin-button,
+          .contact-container .map-container .form-container form textarea input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0; }
+      .contact-container .map-container .form-container form .d-flex {
+        justify-content: space-between; }
+        .contact-container .map-container .form-container form .d-flex .def-input {
+          width: 48%; }
+      .contact-container .map-container .form-container form textarea {
+        resize: none;
+        height: 130px;
+        text-transform: capitalize;
+        color: #5e5e5e;
+        margin-bottom: 40px; }
+      .contact-container .map-container .form-container form .main_link_box_fluid {
+        float: right;
+        margin-right: 20px; }
 
 /*# sourceMappingURL=main.css.map */
