@@ -51,7 +51,7 @@
               top: -4px;
               left: -4px;
               border: 1px solid #2c3e50;
-              content: '';
+              content: "";
               z-index: 10;
               width: 30px;
               height: 30px;
@@ -184,4 +184,7 @@
       @include family(noto);
     }
   }
+}
+
+@media only screen and (max-width: 600px) {
 }
