@@ -6,8 +6,8 @@
   display: flex;
 
   .title {
-    @include family(noto);
-    font-size: 80px;
+    @include family(notoregular);
+    font-size: 70px;
     color: #2c3e50;
     text-transform: capitalize;
     padding-bottom: 50px;
@@ -51,7 +51,7 @@
               top: -4px;
               left: -4px;
               border: 1px solid #2c3e50;
-              content: "";
+              content: '';
               z-index: 10;
               width: 30px;
               height: 30px;
@@ -118,7 +118,7 @@
           font-size: 30px;
           text-transform: capitalize;
           padding: 20px 0;
-          @include family(noto);
+          @include family(notoregular);
         }
       }
 
@@ -182,7 +182,7 @@
     }
 
     .address-title {
-      @include family(noto);
+      @include family(notoregular);
     }
   }
 }
