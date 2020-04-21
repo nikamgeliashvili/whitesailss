@@ -1730,5 +1730,9 @@ body {
     padding-right: 0;
     padding-top: 20px;
     margin-bottom: 40px; }
+    .interior-container .grid .grid-box {
+      width: 48%; }
+      .interior-container .grid .grid-box img {
+        width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
