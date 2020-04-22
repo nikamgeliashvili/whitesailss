@@ -914,145 +914,6 @@ body.nav-active .navigation_footer span {
 .one-page-scroll .offer-section:nth-child(odd) .offer-text {
   transform: translate(-50px, 70px); }
 
-.modal-dialog {
-  border: 10px solid rgba(0, 0, 0, 0.4); }
-  .modal-dialog .success {
-    display: none; }
-  .modal-dialog .fail {
-    display: none; }
-  .modal-dialog .order-sent-box {
-    padding: 50px; }
-    .modal-dialog .order-sent-box .order-img {
-      width: 50px;
-      height: 50px;
-      border: 3px solid #f2f2f2;
-      margin: 10px auto;
-      display: flex;
-      border-radius: 50%;
-      align-items: center;
-      justify-content: center; }
-    .modal-dialog .order-sent-box .order-text {
-      color: black;
-      text-align: center;
-      margin-top: 20px;
-      font-family: "Conv_bpg_algeti", sans-serif;
-      font-size: 12px; }
-      .modal-dialog .order-sent-box .order-text:lang(en) {
-        font-family: "Noto Serif", sans-serif; }
-      .modal-dialog .order-sent-box .order-text:lang(ka) {
-        font-family: "Noto Serif", sans-serif; }
-      .modal-dialog .order-sent-box .order-text:lang(ru) {
-        font-family: "Noto Serif", sans-serif; }
-    .modal-dialog .order-sent-box .order-sent .apartment_order_title {
-      display: inline-block;
-      padding: 22px 0;
-      border-bottom: 1px solid #f2f2f2;
-      width: 100%;
-      text-align: center; }
-      .modal-dialog .order-sent-box .order-sent .apartment_order_title .sent-fail {
-        color: #d5343f; }
-      .modal-dialog .order-sent-box .order-sent .apartment_order_title h4 {
-        color: #4f934b; }
-      .modal-dialog .order-sent-box .order-sent .apartment_order_title * {
-        font-family: "Conv_bpg_algeti", sans-serif;
-        color: #1e1e1e;
-        font-size: 30px; }
-        .modal-dialog .order-sent-box .order-sent .apartment_order_title *:lang(en) {
-          font-family: "Noto Serif italic", sans-serif; }
-        .modal-dialog .order-sent-box .order-sent .apartment_order_title *:lang(ka) {
-          font-family: "Noto Serif italic", sans-serif; }
-        .modal-dialog .order-sent-box .order-sent .apartment_order_title *:lang(ru) {
-          font-family: "Noto Serif italic", sans-serif; }
-  .modal-dialog .close {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    background: #f47e5e;
-    padding: 15px;
-    transition: 0.3s;
-    opacity: 1; }
-    .modal-dialog .close svg {
-      fill: white; }
-    .modal-dialog .close:hover {
-      opacity: 0.7; }
-  .modal-dialog .apartment_order_fluid {
-    padding: 50px 40px; }
-    .modal-dialog .apartment_order_fluid .apartment_order_title {
-      display: inline-block;
-      padding-bottom: 11px;
-      border-bottom: 1px solid #f2f2f2;
-      width: 100%;
-      text-align: center; }
-      .modal-dialog .apartment_order_fluid .apartment_order_title * {
-        font-family: "Conv_bpg_algeti", sans-serif;
-        color: #1e1e1e;
-        font-size: 30px; }
-        .modal-dialog .apartment_order_fluid .apartment_order_title *:lang(en) {
-          font-family: "Noto Serif italic", sans-serif; }
-        .modal-dialog .apartment_order_fluid .apartment_order_title *:lang(ka) {
-          font-family: "Noto Serif italic", sans-serif; }
-        .modal-dialog .apartment_order_fluid .apartment_order_title *:lang(ru) {
-          font-family: "Noto Serif italic", sans-serif; }
-    .modal-dialog .apartment_order_fluid .apartment_order_form {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      width: 100%;
-      max-width: 430px;
-      margin-top: 20px; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form span {
-        font-size: 12px;
-        color: #d5343f;
-        margin-left: 10px;
-        font-family: "Conv_bpg_algeti", sans-serif; }
-        .modal-dialog .apartment_order_fluid .apartment_order_form span:lang(en) {
-          font-family: "Noto Serif italic", sans-serif; }
-        .modal-dialog .apartment_order_fluid .apartment_order_form span:lang(ka) {
-          font-family: "Noto Serif italic", sans-serif; }
-        .modal-dialog .apartment_order_fluid .apartment_order_form span:lang(ru) {
-          font-family: "Noto Serif italic", sans-serif; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form select,
-      .modal-dialog .apartment_order_fluid .apartment_order_form input {
-        border-bottom: 1px solid #5e5e5e;
-        width: 100%;
-        padding: 5px;
-        height: 100%; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form > div {
-        flex: 0 0 48%;
-        max-width: 48%;
-        margin-bottom: 35px; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form * {
-        color: #5e5e5e;
-        font-size: 16px; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form .antique_button button {
-        border: none;
-        outline: none;
-        background-color: #fdeae3;
-        padding: 13px 54px;
-        transition: all 0.2s;
-        cursor: pointer; }
-        .modal-dialog .apartment_order_fluid .apartment_order_form .antique_button button:hover {
-          background-color: #f47e5e;
-          color: #fff; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form .input_name {
-        flex: 0 0 57% !important;
-        max-width: 56% !important; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form .antique_button {
-        flex: unset !important; }
-      .modal-dialog .apartment_order_fluid .apartment_order_form .mobile_col {
-        position: relative; }
-        .modal-dialog .apartment_order_fluid .apartment_order_form .mobile_col:after {
-          content: '+995';
-          position: absolute;
-          display: block;
-          left: 7px;
-          top: 27px;
-          transform: translateY(-50%);
-          font-family: 'Conv_dejavu-sans', sans-serif;
-          color: #707070; }
-        .modal-dialog .apartment_order_fluid .apartment_order_form .mobile_col input {
-          padding-left: 50px !important; }
-
 body {
   background: white; }
 
@@ -1842,31 +1703,143 @@ body {
     width: 95%; }
     .contact-container .address-title {
       width: calc(100% - 25px); } }
-.interior-container {
-  padding: 80px 0 100px; }
-  .interior-container .title {
-    font-family: "Conv_bpg_algeti", sans-serif;
-    font-size: 70px;
-    color: #2c3e50;
-    text-align: center;
-    text-transform: capitalize;
-    padding-top: 50px; }
-    .interior-container .title:lang(en) {
-      font-family: "Noto Serif", sans-serif; }
-    .interior-container .title:lang(ka) {
-      font-family: "Noto Serif", sans-serif; }
-    .interior-container .title:lang(ru) {
-      font-family: "Noto Serif", sans-serif; }
-  .interior-container .gallery {
+.modal-dialog .success {
+  display: none !important; }
+.modal-dialog .fail {
+  display: none !important; }
+.modal-dialog .modal-content {
+  border: 10px solid rgba(0, 0, 0, 0.4); }
+.modal-dialog .order-sent-box {
+  padding: 50px; }
+  .modal-dialog .order-sent-box .order-img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #f2f2f2;
+    margin: 10px auto;
     display: flex;
-    flex-wrap: wrap; }
-  .interior-container .grid {
-    width: 80%;
-    margin: 0 auto;
-    flex: 0 0 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 20px;
-    margin-bottom: 40px; }
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center; }
+  .modal-dialog .order-sent-box .order-text {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Conv_bpg_algeti", sans-serif;
+    font-size: 12px; }
+    .modal-dialog .order-sent-box .order-text:lang(en) {
+      font-family: "Noto Serif", sans-serif; }
+    .modal-dialog .order-sent-box .order-text:lang(ka) {
+      font-family: "Noto Serif", sans-serif; }
+    .modal-dialog .order-sent-box .order-text:lang(ru) {
+      font-family: "Noto Serif", sans-serif; }
+  .modal-dialog .order-sent-box .order-sent .apartment_order_title {
+    display: inline-block;
+    padding: 22px 0;
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+    text-align: center; }
+    .modal-dialog .order-sent-box .order-sent .apartment_order_title .sent-fail {
+      color: #d5343f; }
+    .modal-dialog .order-sent-box .order-sent .apartment_order_title h4 {
+      color: #4f934b; }
+    .modal-dialog .order-sent-box .order-sent .apartment_order_title * {
+      font-family: "Conv_bpg_algeti", sans-serif;
+      color: #1e1e1e;
+      font-size: 30px; }
+      .modal-dialog .order-sent-box .order-sent .apartment_order_title *:lang(en) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .modal-dialog .order-sent-box .order-sent .apartment_order_title *:lang(ka) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .modal-dialog .order-sent-box .order-sent .apartment_order_title *:lang(ru) {
+        font-family: "Noto Serif italic", sans-serif; }
+.modal-dialog .close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: #f47e5e;
+  padding: 15px;
+  transition: 0.3s;
+  opacity: 1; }
+  .modal-dialog .close svg {
+    fill: white; }
+  .modal-dialog .close:hover {
+    opacity: 0.7; }
+.modal-dialog .apartment_order_fluid {
+  padding: 50px 40px; }
+  .modal-dialog .apartment_order_fluid .apartment_order_title {
+    display: inline-block;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+    text-align: center; }
+    .modal-dialog .apartment_order_fluid .apartment_order_title * {
+      font-family: "Conv_bpg_algeti", sans-serif;
+      color: #1e1e1e;
+      font-size: 30px; }
+      .modal-dialog .apartment_order_fluid .apartment_order_title *:lang(en) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .modal-dialog .apartment_order_fluid .apartment_order_title *:lang(ka) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .modal-dialog .apartment_order_fluid .apartment_order_title *:lang(ru) {
+        font-family: "Noto Serif italic", sans-serif; }
+  .modal-dialog .apartment_order_fluid .apartment_order_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 430px;
+    margin-top: 20px; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form span {
+      font-size: 12px;
+      color: #d5343f;
+      margin-left: 10px;
+      font-family: "Conv_bpg_algeti", sans-serif; }
+      .modal-dialog .apartment_order_fluid .apartment_order_form span:lang(en) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .modal-dialog .apartment_order_fluid .apartment_order_form span:lang(ka) {
+        font-family: "Noto Serif italic", sans-serif; }
+      .modal-dialog .apartment_order_fluid .apartment_order_form span:lang(ru) {
+        font-family: "Noto Serif italic", sans-serif; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form select,
+    .modal-dialog .apartment_order_fluid .apartment_order_form input {
+      border-bottom: 1px solid #5e5e5e;
+      width: 100%;
+      padding: 5px;
+      height: 100%; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form > div {
+      flex: 0 0 48%;
+      max-width: 48%;
+      margin-bottom: 35px; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form * {
+      color: #5e5e5e;
+      font-size: 16px; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form .antique_button button {
+      border: none;
+      outline: none;
+      background-color: #fdeae3;
+      padding: 13px 54px;
+      transition: all 0.2s;
+      cursor: pointer; }
+      .modal-dialog .apartment_order_fluid .apartment_order_form .antique_button button:hover {
+        background-color: #f47e5e;
+        color: #fff; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form .input_name {
+      flex: 0 0 57% !important;
+      max-width: 56% !important; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form .antique_button {
+      flex: unset !important; }
+    .modal-dialog .apartment_order_fluid .apartment_order_form .mobile_col {
+      position: relative; }
+      .modal-dialog .apartment_order_fluid .apartment_order_form .mobile_col:after {
+        content: '+995';
+        position: absolute;
+        display: block;
+        left: 7px;
+        top: 27px;
+        transform: translateY(-50%);
+        font-family: 'Conv_dejavu-sans', sans-serif;
+        color: #707070; }
+      .modal-dialog .apartment_order_fluid .apartment_order_form .mobile_col input {
+        padding-left: 50px !important; }
 
 /*# sourceMappingURL=main.css.map */
