@@ -177,7 +177,17 @@
   transform: translate(-50px, 70px);
 }
 
-.modal-content {
+.modal-dialog {
+  .success {
+    display: none;
+  }
+
+  .fail {
+    display: none;
+  }
+
+  .modal-content {
+  }
   border: 10px solid rgba(0, 0, 0, 0.4);
 
   .order-sent-box {
