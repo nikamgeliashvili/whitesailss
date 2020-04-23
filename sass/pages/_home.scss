@@ -108,6 +108,37 @@
     }
   }
 
+  .error-page-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    h3 {
+      color: #292929;
+      font-size: 30px;
+      text-align: center;
+      padding: 20px 0 15px;
+      text-transform: capitalize;
+    }
+
+    p {
+      color: #292929;
+      font-size: 14px;
+    }
+
+    .home-page-button {
+      margin-top: 50px;
+      text-align: center;
+
+      a {
+        font-size: 14px;
+        text-transform: uppercase;
+        border: 1px solid #1e1e1e;
+        padding: 15px 30px;
+        color: #1e1e1e;
+      }
+    }
+  }
+
   .cd_section_1_text {
     max-width: 80%;
     width: 100%;

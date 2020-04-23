@@ -1229,6 +1229,28 @@ body {
     .cd_section_1_fluid .cd_section_1_title h2:lang(ru),
     .cd_section_1_fluid .cd_section_1_title a:lang(ru) {
       font-family: "Noto Serif", sans-serif; }
+  .cd_section_1_fluid .error-page-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; }
+    .cd_section_1_fluid .error-page-text h3 {
+      color: #292929;
+      font-size: 30px;
+      text-align: center;
+      padding: 20px 0 15px;
+      text-transform: capitalize; }
+    .cd_section_1_fluid .error-page-text p {
+      color: #292929;
+      font-size: 14px; }
+    .cd_section_1_fluid .error-page-text .home-page-button {
+      margin-top: 50px;
+      text-align: center; }
+      .cd_section_1_fluid .error-page-text .home-page-button a {
+        font-size: 14px;
+        text-transform: uppercase;
+        border: 1px solid #1e1e1e;
+        padding: 15px 30px;
+        color: #1e1e1e; }
   .cd_section_1_fluid .cd_section_1_text {
     max-width: 80%;
     width: 100%; }
