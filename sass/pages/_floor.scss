@@ -1,169 +1,232 @@
 .floor-container {
-  padding: 100px 90px 10px 100px;
+  padding: 100px 90px 60px 100px;
 
-  .apartment_header {
-    display: flex;
-    justify-content: space-between;
-  }
+  .apartment_container {
+    position: relative;
 
-  .common_tab_links {
-    margin-top: 10px;
-    a {
-      @include family(notosans);
-      color: #000000;
-      font-size: 14px;
-      position: relative;
+    .apartment_header {
+      display: flex;
+      justify-content: space-between;
+    }
 
-      &:hover {
-        text-decoration: underline;
-      }
+    .common_tab_links {
+      margin-top: 10px;
+      a {
+        @include family(notosans);
+        color: #000000;
+        font-size: 14px;
+        position: relative;
 
-      &:not(:last-child) {
-        margin-right: 20px;
-        &:after {
-          background-image: url(../images/right-arrow.png);
-          content: "";
-          position: absolute;
-          top: 50%;
-          right: -19px;
-          transform: translateY(-50%);
-          z-index: 10;
-          width: 15px;
-          height: 11px;
-          background-size: contain;
-          background-position: center center;
-          background-repeat: no-repeat;
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &:not(:last-child) {
+          margin-right: 20px;
+          &:after {
+            background-image: url(../images/right-arrow.png);
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: -19px;
+            transform: translateY(-50%);
+            z-index: 10;
+            width: 15px;
+            height: 11px;
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+          }
         }
       }
     }
-  }
 
-  .common_tab_links {
-    margin-top: 5px;
-  }
-
-  .apartment_title {
-    h3 {
-      font-size: 80px;
-      @include family(noto);
-      color: #000000;
+    .common_tab_links {
+      margin-top: 5px;
     }
-  }
 
-  .apartment_up_box {
-    display: flex;
-    width: 100%;
-    & > div {
-      &:first-child {
-        flex: 0 0 45%;
-        max-width: 45%;
-      }
-
-      &:last-child {
-        flex-grow: 1;
+    .apartment_title {
+      h3 {
+        font-size: 80px;
+        @include family(noto);
+        color: #2c3e50;
       }
     }
-  }
 
-  .apartemtn_left_svg {
-    height: calc(100vh - 300px);
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-  }
-
-  .pdf_link {
-    display: flex;
-    a {
+    .apartment_up_box {
       display: flex;
-      align-items: center;
-      background-color: #f2f2f2;
-      color: #1e1e1e;
-      @include family(notosans);
-      padding: 10px 20px;
+      width: 100%;
+      & > div {
+        &:first-child {
+          flex: 0 0 45%;
+          max-width: 45%;
+        }
 
-      img {
-        height: 29px;
-        object-fit: contain;
-        margin-right: 10px;
+        &:last-child {
+          flex-grow: 1;
+        }
       }
     }
-  }
 
-  .apartment_up_box {
-    margin-top: 50px;
-  }
-
-  .floor-section {
-    display: flex;
-    position: relative;
-    margin-top: 90px;
-
-    .floor-image {
-      width: 65%;
-      z-index: 10;
+    .apartemtn_left_svg {
+      height: calc(100vh - 300px);
 
       img {
         width: 100%;
+        height: 100%;
         object-fit: contain;
       }
     }
 
-    .floor-info {
-      color: #2c3e50;
-      background: #ffd493;
-      position: absolute;
-      width: 60%;
-      height: 90%;
-      right: 0;
-      transform: translate(-5%, -50px);
-
-      .floor-info-box {
+    .pdf_link {
+      display: flex;
+      a {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        float: right;
-        padding: 60px;
-        color: #2c3e50;
+        align-items: center;
+        background-color: #f2f2f2;
+        color: #1e1e1e;
+        @include family(notosans);
+        padding: 10px 20px;
 
-        .floor-type {
-          font-size: 24px;
-        }
-
-        .building-type {
-          padding: 15px 0 10px;
-          border-bottom: 1px solid #2c3e50;
-
-          span {
-            padding-right: 25px;
-          }
-
-          img {
-            width: 40px;
-          }
-        }
-
-        .space {
-          font-size: 40px;
-          text-align: center;
-          padding-top: 15px;
+        img {
+          height: 29px;
+          object-fit: contain;
+          margin-right: 10px;
         }
       }
     }
-  }
 
-  .floor-apartment-tab {
-    bottom: -140px;
-    right: 40px;
-    margin-bottom: 50px;
-    left: unset;
+    .apartment_up_box {
+      margin-top: 50px;
+    }
 
-    .active {
-      color: #f47d5d;
+    .floor-section {
+      display: flex;
+      position: relative;
+      margin-top: 90px;
+
+      .floor-image {
+        width: 65%;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .floor-info {
+        color: #2c3e50;
+        background: #ffd493;
+        position: absolute;
+        width: 60%;
+        height: 90%;
+        right: 0;
+        transform: translate(-5%, -50px);
+
+        .floor-info-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+          float: right;
+          padding: 60px;
+          color: #2c3e50;
+
+          .floor-type {
+            font-size: 24px;
+          }
+
+          .building-type {
+            padding: 15px 0 10px;
+            border-bottom: 1px solid #2c3e50;
+
+            span {
+              padding-right: 25px;
+            }
+
+            img {
+              width: 40px;
+            }
+          }
+
+          .space {
+            font-size: 40px;
+            text-align: center;
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+
+    .floor-apartment-tab {
+      bottom: -30px;
+      right: 40px;
+      left: unset;
+      position: absolute;
+
+      .active {
+        color: #f47d5d;
+      }
+    }
+
+    .building-section {
+      display: flex;
+      justify-content: space-between;
+
+      .building-img {
+        height: 100%;
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .building-info {
+        width: 100%;
+        position: relative;
+
+        .building-info-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+
+          h4 {
+            font-size: 60px;
+            color: #2c3e50;
+            @include family(noto);
+          }
+
+          .vacant-apartments {
+            width: fit-content;
+            margin-top: 50px;
+            color: #707070;
+
+            span {
+              padding: 30px;
+              border: 1px solid #707070;
+            }
+
+            span:first-child {
+              margin-right: -5px;
+            }
+          }
+        }
+      }
+
+      .building-apartment-tab {
+        bottom: -30px;
+        left: 40px;
+        right: unset;
+        position: absolute;
+
+        .active {
+          color: #f47d5d;
+        }
+      }
     }
   }
 }
