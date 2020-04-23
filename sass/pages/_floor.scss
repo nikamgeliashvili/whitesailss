@@ -174,17 +174,14 @@
       display: flex;
       justify-content: space-between;
 
-      .building-img {
-        height: 100%;
-
-        img {
-          height: 100%;
-        }
+      .building-img img {
+        height: calc(100vh - 220px);
       }
 
       .building-info {
         width: 100%;
         position: relative;
+        padding-bottom: 120px;
 
         .building-info-box {
           display: flex;
@@ -218,8 +215,8 @@
       }
 
       .building-apartment-tab {
-        bottom: -30px;
-        left: 40px;
+        bottom: 30px;
+        left: -50px;
         right: unset;
         position: absolute;
 
@@ -229,4 +226,9 @@
       }
     }
   }
+}
+
+.building-container {
+  padding: 100px 90px 0 100px;
+  height: calc(100vh - 24px);
 }

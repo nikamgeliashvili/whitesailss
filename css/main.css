@@ -2254,13 +2254,12 @@ body {
     .floor-container .apartment_container .building-section {
       display: flex;
       justify-content: space-between; }
-      .floor-container .apartment_container .building-section .building-img {
-        height: 100%; }
-        .floor-container .apartment_container .building-section .building-img img {
-          height: 100%; }
+      .floor-container .apartment_container .building-section .building-img img {
+        height: calc(100vh - 220px); }
       .floor-container .apartment_container .building-section .building-info {
         width: 100%;
-        position: relative; }
+        position: relative;
+        padding-bottom: 120px; }
         .floor-container .apartment_container .building-section .building-info .building-info-box {
           display: flex;
           flex-direction: column;
@@ -2288,11 +2287,15 @@ body {
             .floor-container .apartment_container .building-section .building-info .building-info-box .vacant-apartments span:first-child {
               margin-right: -5px; }
       .floor-container .apartment_container .building-section .building-apartment-tab {
-        bottom: -30px;
-        left: 40px;
+        bottom: 30px;
+        left: -50px;
         right: unset;
         position: absolute; }
         .floor-container .apartment_container .building-section .building-apartment-tab .active {
           color: #f47d5d; }
+
+.building-container {
+  padding: 100px 90px 0 100px;
+  height: calc(100vh - 24px); }
 
 /*# sourceMappingURL=main.css.map */
