@@ -2210,7 +2210,7 @@ body {
           margin-right: 20px; }
           .floor-container .apartment_container .common_tab_links a:not(:last-child):after {
             background-image: url(../images/right-arrow.png);
-            content: "";
+            content: '';
             position: absolute;
             top: 50%;
             right: -19px;
@@ -2353,5 +2353,44 @@ body {
 .building-container {
   padding: 100px 90px 0 100px;
   height: calc(100vh - 24px); }
+
+@media only screen and (max-width: 991px) {
+  .floor-container {
+    padding: 100px 15px; }
+    .floor-container .apartment_container .floor-apartment-tab {
+      right: 0; }
+    .floor-container .apartment_container .apartment_header {
+      flex-direction: column; }
+      .floor-container .apartment_container .apartment_header .apartment_title {
+        text-align: center;
+        padding: 15px 0; }
+        .floor-container .apartment_container .apartment_header .apartment_title h3 {
+          font-size: 40px; }
+    .floor-container .apartment_container .floor-section {
+      flex-direction: column;
+      padding-bottom: 70px;
+      margin-top: 40px; }
+      .floor-container .apartment_container .floor-section .floor-image {
+        width: 100% !important; }
+      .floor-container .apartment_container .floor-section .floor-info {
+        position: unset !important;
+        width: 100% !important;
+        transform: unset !important;
+        margin-top: 15px; }
+        .floor-container .apartment_container .floor-section .floor-info .floor-info-box {
+          float: unset; }
+    .floor-container .apartment_container .building-section {
+      flex-direction: column-reverse; }
+      .floor-container .apartment_container .building-section .building-img img {
+        width: 100%;
+        height: unset; }
+      .floor-container .apartment_container .building-section .building-info {
+        padding-bottom: 170px; }
+        .floor-container .apartment_container .building-section .building-info .building-info-box {
+          margin-top: 20px; }
+          .floor-container .apartment_container .building-section .building-info .building-info-box h4 {
+            font-size: 35px; }
+      .floor-container .apartment_container .building-section .building-apartment-tab {
+        left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
