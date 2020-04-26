@@ -1978,6 +1978,29 @@ body {
       .faq-container .address-container .address-title:lang(ru) {
         font-family: "Noto Serif", sans-serif; }
 
+.error-page .error-page-text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center; }
+  .error-page .error-page-text h3 {
+    color: #292929;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 15px;
+    text-transform: capitalize; }
+  .error-page .error-page-text p {
+    color: #292929;
+    font-size: 14px; }
+  .error-page .error-page-text .home-page-button {
+    margin-top: 50px;
+    text-align: center; }
+    .error-page .error-page-text .home-page-button a {
+      font-size: 14px;
+      text-transform: uppercase;
+      border: 1px solid #1e1e1e;
+      padding: 15px 30px;
+      color: #1e1e1e; }
+
 @media only screen and (max-width: 1200px) {
   .contact-container {
     width: 85%; }
@@ -2005,7 +2028,25 @@ body {
         .contact-container .map-container .form-container .d-flex {
           flex-direction: column; }
           .contact-container .map-container .form-container .d-flex .def-input {
-            width: 100% !important; } }
+            width: 100% !important; }
+
+  .error-page {
+    flex-direction: column; }
+    .error-page > div:first-child {
+      max-width: 100%; }
+    .error-page .cd_section_left {
+      align-items: center;
+      transform: unset; }
+      .error-page .cd_section_left h2 {
+        font-size: 60px; }
+      .error-page .cd_section_left h3 {
+        font-size: 25px; }
+    .error-page .Whitesails_main_img {
+      width: 100%;
+      height: 100%; }
+      .error-page .Whitesails_main_img img {
+        height: 100%;
+        width: 100%; } }
 @media only screen and (max-width: 768px) {
   .contact-container {
     width: 95%; }
